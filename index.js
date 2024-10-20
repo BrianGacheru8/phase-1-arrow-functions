@@ -1,14 +1,7 @@
-
-const saturdayFun = function(activity = 'roller-skate') {
-  return `This Saturday, I want to ${activity}!`;
+const divide = function() {
+  return 2000 / 100;
 };
 
-const mondayWork = (activity = 'go to the office') => {
-  return `This Monday, I will ${activity}.`;
-};
+const square = x => x * x;
 
-const wrapAdjective = (flair = '*') => {
-  return (adjective = 'special') => {
-    return `You are ${flair}${adjective}${flair}!`;
-  };
-};
+const add = (a, b) => a + b;
